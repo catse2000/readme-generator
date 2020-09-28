@@ -1,32 +1,32 @@
 
-  # Taskinator
+  # taskinator
 
   ## Description
-    This project helps you organize your tasks
+    organize tasks
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [Tests](#tests)
-  - [Questions](#questions?)
+  - [Questions](#questions)
 
   ## Installation
-    Clone the code
+    clone project
 
   ## Usage
-    This project has usage
+    chrome
 
   ## License
-    MIT
+    This project has a "MIT" license.
 
   ## Contributions
-    None
+    open
 
   ## Tests
-    None
+    none
 
-  ## Questions?
-    catse2000
-    catse2000@yahoo.com
-
+  ## Questions
+  My username is catse2000 <br>
+  You can see my other work at: [https://github.com/catse2000](https://github.com/catse2000) <br>
+  Contact me at: [catse2000@yahoo.com](mailto:catse2000@yahoo.com)
