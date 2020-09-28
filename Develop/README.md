@@ -1,6 +1,7 @@
 
   # taskinator
 
+  ![CC0](https://img.shields.io/badge/license-CC0-green)
   ## Description
     organize tasks
 
@@ -18,7 +19,7 @@
     chrome
 
   ## License
-    This project has a "MIT" license.
+    This project has a "CC0" license.
 
   ## Contributions
     open
