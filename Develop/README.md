@@ -1,9 +1,9 @@
 
-  # taskinator
+  # Taskinator
 
-  ![CC0](https://img.shields.io/badge/license-CC0-green)
+  ![MIT](https://img.shields.io/badge/license-MIT-green)
   ## Description
-    organize tasks
+    This project is used to organize daily tasks
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,19 +13,19 @@
   - [Questions](#questions)
 
   ## Installation
-    clone project
+    Clone the project and open in the browser
 
   ## Usage
-    chrome
+    This project works in Chrome, Firefox, and Safari
 
   ## License
-    This project has a "CC0" license.
+    This project has a "MIT" license.
 
   ## Contributions
-    open
+    This project is open for contribution
 
   ## Tests
-    none
+    Sent project to various users and had them test for bugs
 
   ## Questions
   My username is catse2000 <br>
