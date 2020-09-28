@@ -1,7 +1,6 @@
 const inquirer = require('inquirer');
-
-// const fs = require('fs');
-// const generateReadMe = require('./src/readme-template.js');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 // array of questions for user
 const questions = [
@@ -22,7 +21,7 @@ const questions = [
     {
         type: 'input',
         name: 'desc',
-        message: "What is the description for your project? (Required)",
+        message: "What is the description for your project?",
         validate: descInput => {
             if (descInput) {
                 return true;
@@ -90,12 +89,19 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
+    fs.writeFile('README.md', data, err => {
+        if (err) throw err;
+
+        console.log("README has been created! Check the README.md file!")
+    })
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions)
+        .then(generateMarkdown)
+        .then(writeToFile);
 }
 
 // function call to initialize program
